@@ -325,9 +325,9 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>mymavenproxyreleases</id>
-            <name>my-maven-proxy-releases</name>
-            <url>https://depop.jfrog.io/depop/depop-clean-scala-maven/</url>
+            <id>maven-local2</id>
+            <name>maven-local2</name>
+            <url>http://mill.jfrog.info:12259/artifactory/maven-local2/</url>
             <layout>default</layout>
         </repository>
     </repositories>
