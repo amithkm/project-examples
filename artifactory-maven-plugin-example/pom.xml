@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.depop</groupId>
+    <groupId>com.
+    </groupId>
     <artifactId>label-ingest_2.12</artifactId>
     <packaging>jar</packaging>
     <description>label-ingest</description>
@@ -278,21 +279,6 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.depop</groupId>
-            <artifactId>depop-rabbitmq_2.12</artifactId>
-            <version>3.3.24</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>commons-logging</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.logging.log4j</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-slick_2.12</artifactId>
             <version>3.0.0</version>
@@ -320,6 +306,7 @@
                     <groupId>org.apache.logging.log4j</groupId>
                     <artifactId>*</artifactId>
                 </exclusion>
+                
             </exclusions>
         </dependency>
     </dependencies>
