@@ -1,4 +1,8 @@
 # Docker
+- task: ArtifactoryGenericUpload@1
+  inputs:
+    specSource: 'taskConfiguration'
+    failNoOp: true
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
