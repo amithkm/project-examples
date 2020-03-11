@@ -7,6 +7,14 @@ trigger:
 
 resources:
 - repo: self
+- task: ArtifactoryPublishBuildInfo@1
+  inputs:
+    buildName: '$(Build.DefinitionName)'
+    buildNumber: '$(Build.BuildNumber)'
+- task: ArtifactoryGenericUpload@1
+  inputs:
+    specSource: 'taskConfiguration'
+    failNoOp: true
 
 variables:
   tag: '$(Build.BuildId)'
